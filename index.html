@@ -1,0 +1,1961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A0A0A">
+<title>Share Your Experience — SRV Digital Systems & Solutions</title>
+<meta name="description" content="Tell us about your experience with SRV Digital Systems & Solutions. Your feedback helps us serve better.">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SRV Digital Systems & Solutions">
+<meta property="og:title" content="Share Your Experience — SRV Digital Systems & Solutions">
+<meta property="og:description" content="Tell us about your experience. Takes just 2 minutes.">
+<meta property="og:image" content="images/og-preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Share Your Experience — SRV Digital Systems & Solutions">
+<meta name="twitter:description" content="Tell us about your experience with SRV.">
+<meta name="twitter:image" content="images/og-preview.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#0A0A0A;
+  --black-2:#141414;
+  --black-3:#1C1C1C;
+  --gold:#D4AF37;
+  --champagne:#F4E4A8;
+  --gold-dark:#A88A20;
+  --white:#FFFFFF;
+  --soft-white:#EDEDED;
+  --grad:linear-gradient(135deg,#D4AF37,#F4E4A8 50%,#D4AF37);
+  --grad-dark:linear-gradient(135deg,#A88A20,#D4AF37);
+  --bg:#F5F4F0;
+  --card:#FFFFFF;
+  --line:#E5E2D8;
+  --tx:#0A0A0A;
+  --mu:#6B6B6B;
+  --ok:#10B981;
+  --er:#DC2626;
+  --warn:#F59E0B;
+  --r:16px;
+  --sh:0 1px 2px rgba(10,10,10,.05),0 8px 24px rgba(10,10,10,.06);
+  --sh-gold:0 8px 30px rgba(212,175,55,.25);
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{background:var(--bg);color:var(--tx);font:14px/1.5 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.mont{font-family:Poppins,Inter,sans-serif;letter-spacing:-.3px}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+input,select,textarea{font:inherit;width:100%;padding:11px 13px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--tx);outline:0;transition:.15s}
+input:focus,select:focus,textarea:focus{border-color:var(--gold);box-shadow:0 0 0 4px rgba(212,175,55,.12)}
+textarea{min-height:84px;resize:vertical}
+
+/* SIDEBAR */
+.side{position:fixed;inset:0 auto 0 0;width:268px;background:linear-gradient(180deg,var(--black),#000);color:#fff;display:flex;flex-direction:column;z-index:50;transition:transform .3s;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+.side::before{content:"";position:absolute;inset:0 0 auto;height:4px;background:var(--grad)}
+.logo{margin:22px 16px 8px;background:#fff;border-radius:14px;padding:12px 14px;box-shadow:0 6px 20px rgba(0,0,0,.25);text-align:center}
+.logo img{width:100%;height:auto;max-height:64px;object-fit:contain}
+.logo .fb{display:none;font:800 15px Poppins;background:var(--grad-dark);-webkit-background-clip:text;color:transparent;text-align:center}
+.nav{flex:1;padding:14px 12px;overflow-y:auto}
+.nav small{display:block;font:700 10px Poppins;letter-spacing:1.4px;color:rgba(255,255,255,.35);padding:10px 12px 6px}
+.nv{width:100%;display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:12px;color:rgba(255,255,255,.7);font-weight:600;margin-bottom:4px;text-align:left;transition:.15s}
+.nv:hover{background:rgba(212,175,55,.12);color:#fff}
+.nv.on{background:linear-gradient(135deg,rgba(212,175,55,.28),rgba(244,228,168,.18));color:#fff;box-shadow:inset 0 0 0 1px rgba(212,175,55,.4)}
+.nv b{margin-left:auto;background:var(--gold);color:var(--black);font-size:11px;padding:1px 8px;border-radius:99px}
+.sf{padding:16px;border-top:1px solid rgba(212,175,55,.15);font-size:12px;color:rgba(255,255,255,.6)}
+.bar{height:6px;background:rgba(255,255,255,.12);border-radius:9px;overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--grad);border-radius:9px;transition:width .4s}
+
+/* MAIN */
+.main{margin-left:268px;min-height:100vh;min-height:100dvh}
+.top{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:12px;padding:14px max(28px,env(safe-area-inset-right)) 14px max(28px,env(safe-area-inset-left));background:rgba(245,244,240,.85);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.top h1{font-size:20px;font-weight:800;letter-spacing:-.3px;flex:1;color:var(--black)}
+.top input{max-width:260px;padding:9px 13px}
+.burger{display:none;width:38px;height:38px;border-radius:10px;background:var(--black);color:var(--gold);font-size:18px}
+.pill{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:600;padding:8px 13px;border-radius:99px;background:#fff;border:1px solid var(--line);white-space:nowrap;color:var(--black)}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--mu)}
+.pill.ok i{background:var(--ok)}
+.pill.dirty i{background:var(--warn);animation:pl 1s infinite}
+.pill.err i{background:var(--er)}
+.pill.sync i{background:var(--gold);animation:pl .6s infinite}
+@keyframes pl{50%{opacity:.3}}
+
+.pg{padding:26px 28px 60px;max-width:1240px}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:10px 18px;border-radius:11px;font-weight:700;font-size:13px;border:1.5px solid var(--line);background:#fff;transition:.15s;color:var(--black)}
+.btn:hover{transform:translateY(-1px);box-shadow:var(--sh)}
+.btn.pri{background:var(--grad-dark);color:var(--black);border:0;box-shadow:0 6px 18px rgba(212,175,55,.35);font-weight:800}
+.btn.dk{background:var(--black);color:var(--gold);border-color:var(--black)}
+.btn.dn{color:#991B1B;background:#FEF2F2;border-color:#FECACA}
+.btn:disabled{opacity:.5;cursor:wait;transform:none!important}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr))}
+.stats{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-bottom:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh)}
+.stat{padding:20px;position:relative;overflow:hidden}
+.stat::after{content:"";position:absolute;right:-24px;top:-24px;width:90px;height:90px;border-radius:50%;background:var(--c);opacity:.15}
+.stat small{color:var(--mu);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+.stat h2{font-size:32px;font-weight:800;margin-top:4px;color:var(--black)}
+
+/* TESTIMONIAL CARD */
+.tc{overflow:hidden;cursor:pointer;transition:.2s}
+.tc:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(10,10,10,.12);border-color:var(--gold)}
+.tc-h{display:flex;gap:12px;padding:16px;align-items:flex-start;border-bottom:1px solid var(--line)}
+.tc-av{width:52px;height:52px;border-radius:50%;background:var(--grad-dark);color:var(--black);display:grid;place-items:center;font:800 20px Poppins;flex:none;overflow:hidden}
+.tc-av img{width:100%;height:100%;object-fit:cover}
+.tc-meta{flex:1;min-width:0}
+.tc-name{font-weight:700;font-size:15px;margin-bottom:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tc-co{font-size:12px;color:var(--mu);margin-bottom:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tc-stars{color:var(--gold);font-size:15px;letter-spacing:1px}
+.tc-status{display:flex;gap:6px;flex-wrap:wrap;padding:10px 16px 0}
+.tc-badge{font-size:10px;font-weight:700;padding:3px 9px;border-radius:99px;text-transform:uppercase;letter-spacing:.4px}
+.badge-verified{background:#DCFCE7;color:#166534}
+.badge-featured{background:#FEF3C7;color:#92400E}
+.badge-pending{background:#FEE2E2;color:#991B1B}
+.badge-new{background:#DBEAFE;color:#1E40AF}
+.tc-body{padding:12px 16px 16px}
+.tc-title{font-weight:700;font-size:14px;margin-bottom:6px;line-height:1.35}
+.tc-text{font-size:12.5px;color:#475569;line-height:1.55;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.tc-when{font-size:11px;color:var(--mu);text-align:right;margin-top:8px}
+
+/* SECTIONS */
+.sec{padding:22px;margin-bottom:18px}
+.sec h3{font-size:12px;letter-spacing:1px;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:10px;color:var(--black)}
+.sec h3 span{width:24px;height:24px;border-radius:8px;background:var(--grad-dark);color:var(--black);display:grid;place-items:center;font-size:12px;font-weight:800}
+.fg{margin-bottom:14px}
+.fg>label{display:block;font-weight:600;font-size:12px;margin-bottom:6px;color:#334066}
+.g2{display:grid;gap:14px;grid-template-columns:1fr 1fr}
+.cc{text-align:right;font-size:11px;color:var(--mu);margin-top:4px}
+.cc.x{color:var(--er)}
+
+/* STARS */
+.stars{display:flex;gap:6px;font-size:34px;line-height:1;user-select:none}
+.stars span{color:#D1D5DB;cursor:pointer;transition:.15s;border-radius:4px}
+.stars span:hover,.stars span.on{color:var(--gold);transform:scale(1.1)}
+.stars span:focus-visible{outline:2px solid var(--gold);outline-offset:3px;transform:scale(1.1)}
+.rating-label{font-size:12px;color:var(--mu);margin-top:6px;font-weight:600}
+
+/* UPLOAD */
+.up{position:relative;border:2px dashed #C7D0E6;border-radius:14px;padding:22px;text-align:center;background:#FAFBFF;color:var(--mu);transition:.15s;cursor:pointer}
+.up:hover,.up.dr{border-color:var(--gold);background:#FFFBEB;transform:scale(1.005)}
+.up.dr{border-style:solid;box-shadow:0 0 0 4px rgba(212,175,55,.15)}
+.up input{position:absolute;inset:0;opacity:0;cursor:pointer;padding:0}
+.up-ico{font-size:26px;margin-bottom:6px}
+.up-sub{font-size:11px;color:var(--mu);margin-top:4px}
+.photo-box{position:relative;border:2px dashed #C7D0E6;border-radius:14px;padding:20px 18px;background:#FAFBFF;transition:.15s;text-align:center;color:var(--mu)}
+.photo-box.dr{border-color:var(--gold);background:#FFFBEB;border-style:solid;box-shadow:0 0 0 4px rgba(212,175,55,.15)}
+.photo-box.has-photo{padding:14px;background:#fff;border-style:solid;border-color:var(--gold)}
+.photo-drop{cursor:pointer;user-select:none}
+.photo-drop .up-ico{font-size:30px;margin-bottom:4px}
+.photo-drop b{display:block;font-size:13px;color:var(--tx);margin-bottom:3px;font-weight:700}
+.photo-drop small{font-size:11.5px;color:var(--mu);line-height:1.5;display:block}
+.photo-drop small.kbd{display:inline-block;background:#EEF1F8;border:1px solid #D6DBE8;border-radius:5px;padding:1px 6px;font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:#475569;margin:0 2px}
+.photo-input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.photo-preview{display:flex;align-items:center;gap:14px;text-align:left}
+.photo-thumb{width:80px;height:80px;border-radius:12px;overflow:hidden;background:var(--black);flex:none;box-shadow:0 4px 12px rgba(10,10,10,.15)}
+.photo-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-info{flex:1;min-width:0}
+.photo-info b{display:block;font-size:13px;color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-bottom:2px}
+.photo-info small{font-size:11px;color:var(--mu)}
+.photo-info .ok{color:#059669;font-weight:700}
+.photo-actions{display:flex;flex-direction:column;gap:6px;flex:none}
+.photo-actions button{padding:6px 12px;border-radius:8px;font-size:11.5px;font-weight:700;border:1.5px solid var(--line);background:#fff}
+.photo-actions button:hover{border-color:var(--gold);color:var(--gold-dark)}
+.photo-actions button.rm{color:#991B1B;border-color:#FECACA;background:#FEF2F2}
+.photo-hint{font-size:11.5px;color:var(--mu);margin-top:10px;line-height:1.55;text-align:center}
+.photo-hint a{color:var(--gold-dark);text-decoration:underline;font-weight:600}
+
+/* THANKS */
+.thanks-photo{width:96px;height:96px;border-radius:50%;overflow:hidden;margin:0 auto 16px;border:4px solid #fff;box-shadow:0 8px 24px rgba(10,10,10,.15)}
+.thanks-photo img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* TOGGLES */
+.tg{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px;margin-top:12px}
+.tb{position:relative;aspect-ratio:1;border-radius:12px;overflow:hidden;background:var(--black)}
+.tb img{width:100%;height:100%;object-fit:cover}
+.tb button{position:absolute;top:5px;right:5px;width:24px;height:24px;border-radius:50%;background:rgba(10,10,10,.85);color:#fff}
+.tg-row{display:flex;gap:14px;flex-wrap:wrap}
+.tg-item{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:#FAFBFF;cursor:pointer;transition:.15s;flex:1;min-width:180px}
+.tg-item:hover{border-color:var(--gold);background:#FFFBEB}
+.tg-item.on{background:linear-gradient(135deg,#F0FDF4,#DCFCE7);border-color:#6EE7B7}
+.tg-item.on.gold{background:linear-gradient(135deg,#FFFBEB,#FEF3C7);border-color:var(--gold)}
+.tg-item input{display:none}
+.tg-check{width:20px;height:20px;border:2px solid var(--line);border-radius:6px;background:#fff;display:grid;place-items:center;flex:none;font-size:12px;font-weight:800;color:#fff;transition:.15s}
+.tg-item.on .tg-check{background:var(--ok);border-color:var(--ok)}
+.tg-item.on.gold .tg-check{background:var(--gold);border-color:var(--gold);color:var(--black)}
+.tg-text{font-size:13px;font-weight:600;line-height:1.3}
+.tg-text small{display:block;font-weight:400;font-size:11px;color:var(--mu);margin-top:2px}
+
+/* EDITOR TOP */
+.edtop{position:sticky;top:64px;z-index:30;display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:12px 16px;margin-bottom:18px}
+.edtop h2{flex:1;font-size:16px;min-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* EMPTY / ALERTS */
+.empty{text-align:center;padding:70px 20px;color:var(--mu)}
+.empty div{font-size:52px;margin-bottom:10px}
+.alert{padding:12px 16px;border-radius:12px;background:#FFFBEB;border:1px solid #FDE68A;color:#92400E;font-size:12.5px;margin-bottom:16px;line-height:1.55}
+.alert.ok{background:#F0FDF4;border-color:#BBF7D0;color:#166534}
+.alert.err{background:#FEF2F2;border-color:#FECACA;color:#991B1B}
+
+/* PRIVACY */
+.privacy{background:#EFF6FF;border:1px solid #BFDBFE;border-radius:12px;padding:14px;margin-top:14px;font-size:12.5px;color:#1E40AF;line-height:1.6}
+.privacy b{font-weight:800}
+
+/* LOGIN */
+.login-wrap{min-height:100vh;min-height:100dvh;display:grid;place-items:center;padding:20px;padding-top:max(20px,env(safe-area-inset-top));padding-bottom:max(20px,env(safe-area-inset-bottom));background:radial-gradient(circle at 20% 10%,rgba(212,175,55,.1),transparent 40%),radial-gradient(circle at 80% 90%,rgba(212,175,55,.08),transparent 40%),var(--bg)}
+.login-card{width:100%;max-width:420px;background:#fff;border-radius:20px;padding:32px 28px;box-shadow:0 20px 60px rgba(10,10,10,.15),0 4px 12px rgba(10,10,10,.05);border:1px solid var(--line);position:relative;overflow:hidden}
+.login-card::before{content:"";position:absolute;inset:0 0 auto;height:5px;background:var(--grad)}
+.login-logo{text-align:center;margin-bottom:22px}
+.login-logo img{max-height:60px;margin:0 auto 10px;display:block}
+.login-logo .fb{font:800 18px Poppins;background:var(--grad-dark);-webkit-background-clip:text;color:transparent}
+.login-logo h2{font-size:20px;font-weight:800;margin-top:10px;color:var(--tx)}
+.login-logo p{color:var(--mu);font-size:13px;margin-top:4px}
+.login-card .fg{margin-bottom:16px}
+.login-card .btn{width:100%;justify-content:center;padding:13px;font-size:14px}
+.login-err{background:#FEF2F2;color:#991B1B;padding:10px 14px;border-radius:10px;font-size:12.5px;font-weight:600;margin-bottom:14px;text-align:center;border:1px solid #FECACA}
+.login-hint{text-align:center;font-size:11.5px;color:var(--mu);margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+
+/* CUSTOMER */
+.cust-wrap{min-height:100vh;min-height:100dvh;padding:24px 16px 60px;padding-top:max(24px,env(safe-area-inset-top));padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right));background:radial-gradient(circle at 10% 0%,rgba(212,175,55,.06),transparent 40%),radial-gradient(circle at 90% 100%,rgba(212,175,55,.05),transparent 40%),var(--bg)}
+.cust-container{max-width:560px;margin:0 auto}
+.cust-header{text-align:center;padding:24px 16px 26px;margin-bottom:24px;background:#fff;border-radius:20px;box-shadow:0 8px 30px rgba(10,10,10,.08);position:relative;overflow:hidden}
+.cust-header::before{content:"";position:absolute;inset:0 0 auto;height:5px;background:var(--grad)}
+.cust-header img{max-height:60px;margin:0 auto 10px;display:block}
+.cust-header .fb{font:800 18px Poppins;background:var(--grad-dark);-webkit-background-clip:text;color:transparent}
+.cust-header h1{font-size:22px;font-weight:800;margin-top:12px;color:var(--tx)}
+.cust-header p{color:var(--mu);font-size:13.5px;margin-top:6px;line-height:1.6}
+.cust-card{background:#fff;border-radius:20px;padding:24px;box-shadow:0 8px 30px rgba(10,10,10,.08);border:1px solid var(--line);margin-bottom:16px}
+.cust-card h3{font-size:12px;letter-spacing:1px;text-transform:uppercase;margin-bottom:16px;color:var(--mu);font-weight:700}
+.cust-foot{text-align:center;padding:20px 16px;color:var(--mu);font-size:12px}
+.cust-foot b{color:var(--tx);font-weight:700}
+.hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important;opacity:0!important;pointer-events:none!important}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:12.5px;color:var(--mu);line-height:1.55;cursor:pointer}
+.consent input{width:auto;flex:none;margin-top:2px;accent-color:var(--gold)}
+.consent a{color:var(--gold-dark);text-decoration:underline;font-weight:600}
+
+/* PUBLIC REVIEWS */
+.pub-section{max-width:560px;margin:36px auto 0}
+.pub-section h2{font-size:18px;font-weight:800;margin-bottom:6px;display:flex;align-items:center;gap:10px;color:var(--black)}
+.pub-summary{font-size:12.5px;color:var(--mu);margin-bottom:16px;font-weight:600}
+.pub-card{background:#fff;border-radius:16px;padding:18px;box-shadow:0 4px 16px rgba(10,10,10,.06);border:1px solid var(--line);margin-bottom:12px}
+.pub-head{display:flex;gap:12px;align-items:flex-start;margin-bottom:10px}
+.pub-av{width:44px;height:44px;border-radius:50%;background:var(--grad-dark);color:var(--black);display:grid;place-items:center;font:800 16px Poppins;flex:none;overflow:hidden}
+.pub-av img{width:100%;height:100%;object-fit:cover}
+.pub-meta{flex:1;min-width:0}
+.pub-name{font-weight:700;font-size:14px;margin-bottom:1px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pub-co{font-size:11.5px;color:var(--mu);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pub-when{font-size:10.5px;color:var(--mu);white-space:nowrap;font-weight:600}
+.pub-stars{color:var(--gold);font-size:13px;letter-spacing:.5px;margin-bottom:8px}
+.pub-title{font-weight:700;font-size:13.5px;margin-bottom:5px;line-height:1.35}
+.pub-text{font-size:12.5px;color:#475569;line-height:1.6;white-space:pre-wrap}
+.pub-skel{background:#fff;border-radius:16px;padding:18px;margin-bottom:12px;border:1px solid var(--line)}
+.pub-skel div{height:11px;background:linear-gradient(90deg,#EEF1F7,#E0E5F0,#EEF1F7);background-size:200% 100%;animation:sh 1.4s infinite;border-radius:6px;margin-bottom:8px}
+.pub-skel div:nth-child(1){width:35%}
+.pub-skel div:nth-child(2){width:90%}
+.pub-skel div:nth-child(3){width:70%}
+@keyframes sh{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
+/* THANKS */
+.thanks-wrap{min-height:100vh;min-height:100dvh;display:grid;place-items:center;padding:24px 16px;padding-top:max(24px,env(safe-area-inset-top));padding-bottom:max(24px,env(safe-area-inset-bottom));background:radial-gradient(circle at 50% 0%,rgba(16,185,129,.08),transparent 50%),radial-gradient(circle at 50% 100%,rgba(212,175,55,.1),transparent 50%),var(--bg)}
+.thanks-card{max-width:520px;width:100%;background:#fff;border-radius:24px;padding:48px 32px 36px;text-align:center;box-shadow:0 20px 60px rgba(10,10,10,.15);border:1px solid var(--line);position:relative;overflow:hidden;animation:pop .4s ease}
+@keyframes pop{0%{opacity:0;transform:scale(.95) translateY(10px)}100%{opacity:1;transform:none}}
+.thanks-card::before{content:"";position:absolute;inset:0 0 auto;height:5px;background:linear-gradient(90deg,#10B981,var(--gold))}
+.thanks-icon{width:88px;height:88px;border-radius:50%;background:var(--grad-dark);color:var(--black);display:grid;place-items:center;font-size:44px;margin:0 auto 22px;box-shadow:0 12px 30px rgba(212,175,55,.45);animation:checkIn .5s .1s ease both}
+@keyframes checkIn{0%{transform:scale(0);opacity:0}60%{transform:scale(1.15)}100%{transform:scale(1);opacity:1}}
+.thanks-card h1{font-size:26px;font-weight:800;color:var(--tx);margin-bottom:12px}
+.thanks-card p{color:var(--mu);font-size:15px;line-height:1.7;margin-bottom:24px}
+.thanks-quote{background:linear-gradient(135deg,#F0FDF4,#ECFDF5);border-left:4px solid #10B981;border-radius:12px;padding:16px 18px;text-align:left;font-style:italic;color:#065F46;font-size:13.5px;line-height:1.6;margin-bottom:24px}
+.thanks-quote b{font-style:normal;font-weight:700;color:#047857}
+.share-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
+.share-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 18px;border-radius:10px;font-size:12.5px;font-weight:700;text-decoration:none;background:#fff;border:1.5px solid var(--line);color:var(--tx);cursor:pointer;transition:.15s}
+.share-btn:hover{transform:translateY(-1px);box-shadow:var(--sh)}
+.share-btn.wa{background:#25D366;color:#fff;border-color:#25D366}
+
+/* TOAST */
+.toast{position:fixed;left:50%;bottom:max(28px,env(safe-area-inset-bottom));transform:translate(-50%,30px);background:var(--black);color:var(--gold);padding:12px 22px;border-radius:99px;font-weight:600;opacity:0;pointer-events:none;transition:.3s;z-index:200;box-shadow:0 8px 30px rgba(0,0,0,.4);max-width:90vw;text-align:center;border:1px solid var(--gold)}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast.ok{background:#047857;color:#fff;border-color:#047857}
+.toast.er{background:#B91C1C;color:#fff;border-color:#B91C1C}
+.ov{display:none}
+.sort-sel{max-width:180px;padding:9px 12px;font-size:12.5px}
+.noscript-msg{position:fixed;inset:0;z-index:999;display:grid;place-items:center;background:var(--black);color:var(--gold);padding:30px;text-align:center;font:600 15px Inter,sans-serif}
+
+/* FOOTER BRANDING */
+.cust-foot b{color:var(--black)}
+.cust-foot small{display:block;margin-top:6px;font-size:11px;color:var(--gold-dark);font-weight:600;letter-spacing:.5px;text-transform:uppercase}
+
+@media(max-width:860px){
+  .side{transform:translateX(-100%)}
+  .side.open{transform:none}
+  .main{margin-left:0}
+  .burger{display:block}
+  .ov.show{display:block;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:45}
+  .top{padding:10px max(12px,env(safe-area-inset-right)) 10px max(12px,env(safe-area-inset-left));gap:8px;flex-wrap:wrap}
+  .top h1{font-size:16px;flex:1;order:1;min-width:0}
+  .burger{order:0}
+  .top input{display:block;max-width:none;flex:1 0 100%;order:4;padding:8px 12px}
+  .pill{order:2;padding:7px 11px;font-size:11px}
+  #saveNow{order:3;padding:9px 13px;font-size:12px}
+  .pg{padding:16px 14px 60px}
+  .g2{grid-template-columns:1fr}
+  .edtop{position:relative;top:auto}
+  .sort-sel{max-width:none;width:100%}
+  .photo-preview{flex-direction:column;align-items:stretch;text-align:center}
+  .photo-thumb{margin:0 auto}
+  .photo-actions{flex-direction:row}
+  .photo-actions button{flex:1}
+  input,select,textarea{font-size:16px !important}
+}
+</style>
+</head>
+<body>
+
+<noscript>
+  <div class="noscript-msg">⚠️ This page requires JavaScript. Please enable it and reload.</div>
+</noscript>
+
+<div id="app"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* =========================================================
+   🔐 CONFIG — SRV Digital Systems & Solutions
+   ⚠️ Change these credentials before deploying publicly.
+   To generate base64: open browser console → btoa("newvalue")
+========================================================= */
+const AUTH_ENC = {
+  u: 'c3J2ZGlyZWN0b3I=',           // "srvdirector"
+  p: 'U1JWc2VjdXJlQDIwMjY='        // "SRVsecure@2026"
+};
+const b64decUTF8 = s => {
+  try {
+    const bin = atob(s);
+    const bytes = Uint8Array.from(bin, c => c.charCodeAt(0));
+    return new TextDecoder().decode(bytes);
+  } catch(e){ return ''; }
+};
+const ADMIN_USER = b64decUTF8(AUTH_ENC.u);
+const ADMIN_PASS = b64decUTF8(AUTH_ENC.p);
+
+const REVIEW_EMAIL = 'srvdigitalsystemssolutions@gmail.com';
+
+const isAdminMode = () =>
+  location.hash.toLowerCase().startsWith('#admin') ||
+  new URLSearchParams(location.search).has('admin');
+
+const CK='srv_gh_t', DB='srv_reviews_v1', LK='srv_login_t';
+
+let cfg={
+  owner:'darkwebnew',
+  repo:'srv-reviews',
+  branch:'main',
+  token:'',
+  dataPath:'testimonials.json',
+  webhook:'',
+  privacyUrl:''
+};
+try{Object.assign(cfg,JSON.parse(localStorage.getItem(CK)||'{}'))}catch(e){}
+
+const LOCAL_DELAY=800, CLOUD_DELAY=5000, MAX_REVIEW=1500, MAX_TITLE=120;
+const RATING_LABELS={1:'Poor',2:'Fair',3:'Good',4:'Very Good',5:'Excellent'};
+const MAX_PHOTO_LOCAL=1000;
+const MAX_PHOTO_WEBHOOK=600;
+const PHOTO_QUALITY_LOCAL=0.82;
+const PHOTO_QUALITY_WEBHOOK=0.7;
+
+/* SRV Services list */
+const SERVICES=[
+  'Project & Technical Solutions',
+  'Career & Personal Branding',
+  'Web Development',
+  'AI & Business Automation',
+  'Cybersecurity Consulting',
+  'CRM & Marketing Automation',
+  '3D Printing & Custom Manufacturing',
+  'IT Support & System Services',
+  'Mobile App Design & Development',
+  'Other'
+];
+
+const HEARD_FROM=[
+  'Google search',
+  'LinkedIn',
+  'Instagram',
+  'Referral from existing client',
+  'Existing customer',
+  'WhatsApp',
+  'Walk-in / Direct contact',
+  'Trade show / Event',
+  'Other'
+];
+
+let S={testimonials:[]};
+let isLoggedIn=sessionStorage.getItem(LK)==='yes';
+let view='dash', activeId=null, q='', sortBy='newest', dirty=false, saving=false, lastSave=null, lastEditAt=0, storageFull=false, tL, tC;
+let customerStage='form';
+let lastSubmitted=null;
+
+const $=s=>document.querySelector(s);
+const $$=s=>Array.from(document.querySelectorAll(s));
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const uid=()=>'t_'+Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+const RAW=p=>`https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${cfg.branch}/${p}`;
+const src=i=>i?(i.dataUrl||i.url||''):'';
+const cloud=()=>!!(cfg.owner&&cfg.repo&&cfg.token);
+const stars=n=>'★'.repeat(n)+'☆'.repeat(5-n);
+const avgRating=(items)=>{
+  const p=(items||S.testimonials).filter(t=>t.publishPermission);
+  if(!p.length)return 0;
+  return Math.round((p.reduce((s,t)=>s+t.rating,0)/p.length)*10)/10;
+};
+
+function hashDataUrl(d){
+  if(!d) return '';
+  const len = d.length;
+  const s = d.slice(0,60)+'|'+len+'|'+d.slice(-60);
+  let h = 0;
+  for(let i=0;i<s.length;i++) h = (h*31 + s.charCodeAt(i)) | 0;
+  return 'h'+h+'_'+len;
+}
+
+function ago(iso){
+  if(!iso)return '';
+  const d=new Date(iso);
+  if(isNaN(d))return '';
+  const s=Math.floor((Date.now()-d.getTime())/1000);
+  if(s<60)return 'just now';
+  const m=Math.floor(s/60);if(m<60)return m+'m ago';
+  const h=Math.floor(m/60);if(h<24)return h+'h ago';
+  const dy=Math.floor(h/24);if(dy<30)return dy+'d ago';
+  const mo=Math.floor(dy/30);if(mo<12)return mo+'mo ago';
+  return Math.floor(mo/12)+'y ago';
+}
+
+function b64enc(str){
+  const bytes=new TextEncoder().encode(str);
+  let bin='';
+  for(let i=0;i<bytes.length;i++)bin+=String.fromCharCode(bytes[i]);
+  return btoa(bin);
+}
+function b64dec(b64){
+  const bin=atob(String(b64).replace(/\n/g,''));
+  const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+let toastT;
+function toast(m,t){
+  const e=$('#toast');e.textContent=m;e.className='toast show '+(t||'');
+  clearTimeout(toastT);toastT=setTimeout(()=>e.className='toast',2800);
+}
+
+window.__custPaste = null;
+document.addEventListener('paste', e => {
+  if(typeof window.__custPaste === 'function') window.__custPaste(e);
+});
+
+/* =========================================================
+   MODEL
+========================================================= */
+function mk(preset){
+  const p=preset||{};
+  return hyd({
+    id:uid(),
+    customerName:p.customerName||'',
+    companyName:p.companyName||'',
+    designation:p.designation||'',
+    location:p.location||'',
+    photo:null,
+    services:p.services||'',
+    invoiceRef:p.invoiceRef||'',
+    heardFrom:p.heardFrom||'',
+    rating:p.rating||5,
+    reviewTitle:p.reviewTitle||'',
+    reviewText:p.reviewText||'',
+    reviewDate:p.reviewDate||new Date().toISOString().slice(0,10),
+    verified:false,
+    featured:false,
+    publishPermission:!!p.publishPermission,
+    source:p.source||'admin',
+    seenByAdmin:!!p.seenByAdmin,
+    isSample:!!p.isSample,
+    createdAt:new Date().toISOString()
+  });
+}
+function hyd(t){
+  t.id=t.id||uid();
+  t.customerName=t.customerName||'';
+  t.companyName=t.companyName||'';
+  t.designation=t.designation||'';
+  t.location=t.location||'';
+  t.services=t.services||'';
+  t.invoiceRef=t.invoiceRef||'';
+  t.heardFrom=t.heardFrom||'';
+  t.rating=Math.max(1,Math.min(5,+t.rating||5));
+  t.reviewTitle=t.reviewTitle||'';
+  t.reviewText=t.reviewText||'';
+  t.reviewDate=t.reviewDate||new Date().toISOString().slice(0,10);
+  t.verified=!!t.verified;
+  t.featured=!!t.featured;
+  t.publishPermission=!!t.publishPermission;
+  t.source=t.source||'admin';
+  t.seenByAdmin=!!t.seenByAdmin;
+  t.isSample=!!t.isSample;
+  t.createdAt=t.createdAt||new Date().toISOString();
+  t.photo=t.photo||null;
+  return t;
+}
+const cur=()=>S.testimonials.find(t=>t.id===activeId);
+
+/* =========================================================
+   SAMPLE (DEMO — only used by "Fill with demo data" button)
+========================================================= */
+const SAMPLE={
+  customerName:"Mr. Balaji",
+  companyName:"Sree Lakshmi Engineering",
+  designation:"Business Owner",
+  location:"Chennai, Tamil Nadu",
+  services:"IT Support & System Services",
+  invoiceRef:"SRV/2026-27/004",
+  heardFrom:"Referral from existing client",
+  rating:5,
+  reviewTitle:"Professional IT service — full laptop restoration done right",
+  reviewText:"SRV Digital Systems & Solutions handled the complete restoration of our HP Pavilion laptop — malware inspection, 102 GB data backup, Windows 11 clean installation, Office setup, and final driver configuration. Everything was done professionally with clear itemized invoicing. The team was responsive and the pricing was transparent. Highly recommended for any business needing reliable IT support.",
+  reviewDate:"2026-09-21",
+  verified:true,
+  featured:true,
+  publishPermission:true,
+  isSample:true,
+  seenByAdmin:true
+};
+
+/* =========================================================
+   LOCAL STORAGE
+========================================================= */
+function saveLocal(){
+  try{
+    const j=JSON.stringify(S);
+    if(j.length>4.5e6){
+      const lite={testimonials:S.testimonials.map(t=>({
+        ...t,
+        photo: t.photo
+          ? (t.photo.url ? { ...t.photo, dataUrl: null } : { ...t.photo })
+          : null,
+      }))};
+      localStorage.setItem(DB,JSON.stringify(lite));
+    }else{
+      localStorage.setItem(DB,j);
+    }
+    storageFull=false;
+    return true;
+  }catch(e){
+    console.warn(e);
+    if(e && e.name==='QuotaExceededError'){
+      if(!storageFull){
+        storageFull=true;
+        toast('⚠️ Browser storage full — download a backup now','er');
+      }
+    }
+    return false;
+  }
+}
+function loadLocal(){
+  try{
+    const raw=localStorage.getItem(DB);
+    if(raw){
+      const p=JSON.parse(raw);
+      S.testimonials=(p.testimonials||[]).map(hyd);
+    }
+  }catch(e){}
+}
+
+/* =========================================================
+   AUTOSAVE
+========================================================= */
+function touch(){
+  dirty=true;
+  lastEditAt=Date.now();
+  clearTimeout(tL);tL=setTimeout(saveLocal,LOCAL_DELAY);
+  pill();
+  if(cloud()){clearTimeout(tC);tC=setTimeout(()=>ghSave(false),CLOUD_DELAY)}
+}
+function pill(state,txt){
+  const p=$('#pill');if(!p)return;
+  let c='',t;
+  const unpublished=S.testimonials.filter(x=>!x.publishPermission).length;
+  if(saving){c='sync';t='Saving…'}
+  else if(state==='err'){c='err';t=txt||'Save failed'}
+  else if(storageFull){c='err';t='Storage full — export now'}
+  else if(dirty){c='dirty';t=cloud()?'Unsaved · autosave soon':'Saved on this device'}
+  else if(!cloud()){t='Saved locally'}
+  else{
+    c='ok';
+    const base=lastSave?'Saved '+lastSave.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'}):'Connected';
+    t=unpublished?base+' · '+unpublished+' local-only':base;
+  }
+  p.className='pill '+c;$('#pt').textContent=t;
+}
+
+/* =========================================================
+   GITHUB
+========================================================= */
+const H=()=>({Authorization:'Bearer '+cfg.token,Accept:'application/vnd.github+json'});
+const API=p=>`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${p}`;
+async function ghGet(p){
+  const r=await fetch(API(p)+'?ref='+cfg.branch,{headers:H(),cache:'no-store'});
+  if(r.status===404)return null;
+  if(!r.ok)throw Error(p+' → HTTP '+r.status);
+  return r.json();
+}
+async function ghPut(p,b64,sha){
+  const r=await fetch(API(p),{
+    method:'PUT',
+    headers:{...H(),'Content-Type':'application/json'},
+    body:JSON.stringify({message:'Update '+p,content:b64,branch:cfg.branch,...(sha?{sha}:{})})
+  });
+  if(!r.ok){let m='';try{m=(await r.json()).message}catch(e){}throw Error(p+' → HTTP '+r.status+' '+m)}
+  return r.json();
+}
+async function upload(obj,path){
+  if(!obj||!obj.dataUrl) return;
+  const sig = hashDataUrl(obj.dataUrl);
+  if(obj.up === sig) return;
+  const ex=await ghGet(path).catch(()=>null);
+  await ghPut(path,obj.dataUrl.split(',')[1],ex&&ex.sha);
+  obj.url=RAW(path)+'?v='+Date.now();
+  obj.up=sig;
+}
+function clean(t,inline){
+  const f=o=>o&&{filename:o.filename||'',url:o.url||null,...(inline&&o.dataUrl?{dataUrl:o.dataUrl}:{})};
+  return {
+    id:t.id,
+    customerName:t.customerName.trim(),
+    companyName:t.companyName.trim(),
+    designation:t.designation.trim(),
+    location:t.location.trim(),
+    photo:f(t.photo),
+    services:t.services.trim(),
+    invoiceRef:(t.invoiceRef||'').trim(),
+    heardFrom:(t.heardFrom||'').trim(),
+    rating:t.rating,
+    reviewTitle:t.reviewTitle.trim(),
+    reviewText:t.reviewText.trim(),
+    reviewDate:t.reviewDate,
+    verified:!!t.verified,
+    featured:!!t.featured,
+    publishPermission:!!t.publishPermission,
+    source:t.source,
+    seenByAdmin:!!t.seenByAdmin,
+    isSample:!!t.isSample,
+    createdAt:t.createdAt
+  };
+}
+function payload(inline,publishedOnly){
+  let items=S.testimonials;
+  if(publishedOnly)items=items.filter(t=>t.publishPermission);
+  return {
+    meta:{
+      company:"SRV DIGITAL SYSTEMS & SOLUTIONS",
+      tagline:"Secure Systems. Reliable Solutions.",
+      website:"srvdigitalsystemssolutions.com",
+      generatedAt:new Date().toISOString(),
+      totalTestimonials:items.length,
+      avgRating:items.length?Math.round((items.reduce((s,t)=>s+t.rating,0)/items.length)*10)/10:0
+    },
+    testimonials:items.map(t=>clean(t,inline))
+  };
+}
+
+async function ghSave(manual){
+  if(!cloud()){
+    saveLocal();
+    if(manual)toast('Saved on this device ✓','ok');
+    return;
+  }
+  if(saving)return;
+  const startedAt=Date.now();
+  saving=true;pill();clearTimeout(tC);
+  try{
+    const published=S.testimonials.filter(t=>t.publishPermission);
+    for(const t of published){
+      await upload(t.photo,`testimonials/${t.id}-photo.jpg`);
+    }
+    const b64=b64enc(JSON.stringify(payload(false,true),null,2));
+    const ex=await ghGet(cfg.dataPath).catch(()=>null);
+    await ghPut(cfg.dataPath,b64,ex&&ex.sha);
+    saveLocal();
+    if(lastEditAt < startedAt) dirty=false;
+    lastSave=new Date();saving=false;
+    pill();
+    if(manual){
+      const hidden=S.testimonials.length-published.length;
+      toast(hidden?`Saved ${published.length} to GitHub · ${hidden} local-only`:'Saved to GitHub ✓','ok');
+    }
+  }catch(e){
+    console.warn(e);
+    saving=false;dirty=true;
+    pill('err','Save failed');
+    toast(e.message.slice(0,70),'er');
+  }
+}
+async function ghLoad(){
+  if(!cloud())return toast('Cloud sync is not set up yet','er');
+  if(dirty&&!confirm('Unsaved changes will be replaced. Continue?'))return;
+  try{
+    const f=await ghGet(cfg.dataPath);
+    if(!f)return toast('No testimonials.json in repo yet','er');
+    const raw=JSON.parse(b64dec(f.content));
+    const cloudItems=(raw.testimonials||[]).map(r=>hyd({
+      ...r,
+      photo:r.photo?{...r.photo,dataUrl:null}:null
+    }));
+    const localOnly=S.testimonials.filter(t=>!t.publishPermission);
+    const cloudIds=new Set(cloudItems.map(t=>t.id));
+    const kept=localOnly.filter(t=>!cloudIds.has(t.id));
+    S.testimonials=[...cloudItems,...kept];
+    saveLocal();
+    dirty=false;lastSave=new Date();activeId=null;
+    render();
+    toast(kept.length?`Loaded ✓ · kept ${kept.length} local-only`:'Loaded ✓','ok');
+  }catch(e){
+    toast('Load failed: '+e.message.slice(0,60),'er');
+  }
+}
+
+/* =========================================================
+   WEBHOOK
+========================================================= */
+async function postWebhook(t){
+  if(!cfg.webhook)return false;
+  try{
+    const body={
+      _subject:`New SRV review from ${t.customerName||'a customer'}`,
+      _source:'srv-reviews',
+      customerName:t.customerName,
+      companyName:t.companyName,
+      designation:t.designation,
+      location:t.location,
+      services:t.services,
+      invoiceRef:t.invoiceRef,
+      heardFrom:t.heardFrom,
+      rating:t.rating,
+      reviewTitle:t.reviewTitle,
+      reviewText:t.reviewText,
+      publishPermission:t.publishPermission,
+      reviewDate:t.reviewDate,
+      createdAt:t.createdAt,
+      id:t.id
+    };
+    if(t.photo&&t.photo.dataUrl){
+      try{
+        const small=await compressTo(t.photo.dataUrl,MAX_PHOTO_WEBHOOK,PHOTO_QUALITY_WEBHOOK);
+        body.photoBase64=small.split(',')[1];
+        body.photoMime='image/jpeg';
+        body.photoFilename=(t.photo.filename||'photo.jpg').replace(/\.\w+$/,'')+'.jpg';
+      }catch(e){console.warn('photo compress for webhook failed',e)}
+    }
+    const r=await fetch(cfg.webhook,{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify(body)
+    });
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    return true;
+  }catch(e){
+    console.warn('Webhook failed:',e);
+    return false;
+  }
+}
+
+/* =========================================================
+   ROUTER
+========================================================= */
+function render(){
+  const app=document.getElementById('app');
+  if(isAdminMode()){
+    if(!isLoggedIn){
+      app.innerHTML=renderLogin('admin');
+      bindLogin('admin');
+      return;
+    }
+    app.innerHTML=renderAdminShell();
+    renderAdminView();
+    return;
+  }
+  if(customerStage==='thanks'){
+    app.innerHTML=renderThanks();
+    return;
+  }
+  app.innerHTML=renderCustomerForm();
+  bindCustomer();
+  loadPublicReviews();
+}
+
+addEventListener('hashchange',()=>{
+  if(activeId)activeId=null;
+  render();
+});
+
+/* =========================================================
+   LOGIN
+========================================================= */
+function renderLogin(mode){
+  const title=mode==='admin'?'Admin Login':'Login';
+  const subtitle=mode==='admin'?'Sign in to manage SRV testimonials':'Enter credentials to continue';
+  return `
+    <div class="login-wrap">
+      <div class="login-card">
+        <div class="login-logo">
+          <img src="images/logo.png" alt="SRV Digital Systems & Solutions" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+          <div class="fb" style="display:none">SRV DIGITAL SYSTEMS</div>
+          <h2>${title}</h2>
+          <p>${subtitle}</p>
+        </div>
+        <div id="loginErr" class="login-err" style="display:none"></div>
+        <form id="loginForm">
+          <div class="fg">
+            <label>Username</label>
+            <input id="lgUser" type="text" autocomplete="username" placeholder="Enter username" autofocus>
+          </div>
+          <div class="fg">
+            <label>Password</label>
+            <input id="lgPass" type="password" autocomplete="current-password" placeholder="Enter password">
+          </div>
+          <button type="submit" class="btn pri">🔓 Sign in</button>
+        </form>
+        <div class="login-hint">Contact the site owner if you don't have credentials.</div>
+      </div>
+    </div>
+  `;
+}
+function bindLogin(mode){
+  const form=document.getElementById('loginForm');
+  form.addEventListener('submit',e=>{
+    e.preventDefault();
+    const u=document.getElementById('lgUser').value.trim();
+    const p=document.getElementById('lgPass').value;
+    if(u===ADMIN_USER&&p===ADMIN_PASS){
+      isLoggedIn=true;
+      sessionStorage.setItem(LK,'yes');
+      render();
+    }else{
+      const err=document.getElementById('loginErr');
+      err.textContent='Invalid username or password';
+      err.style.display='block';
+      document.getElementById('lgPass').value='';
+    }
+  });
+}
+
+/* =========================================================
+   CUSTOMER FORM
+========================================================= */
+function renderCustomerForm(){
+  const serviceOpts=SERVICES.map(m=>`<option value="${esc(m)}"></option>`).join('');
+  const heardOpts=HEARD_FROM.map(h=>`<option>${esc(h)}</option>`).join('');
+  const privacyHref=cfg.privacyUrl?esc(cfg.privacyUrl):'#';
+  return `
+    <div class="cust-wrap">
+      <div class="cust-container">
+        <div class="cust-header">
+          <img src="images/logo.png" alt="SRV Digital Systems & Solutions" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+          <div class="fb" style="display:none">SRV DIGITAL SYSTEMS</div>
+          <h1>Share Your Experience</h1>
+          <p>Thank you for choosing SRV Digital Systems &amp; Solutions.<br>Your feedback helps us serve better.</p>
+        </div>
+        <form id="custForm" novalidate>
+          <div class="hp" aria-hidden="true">
+            <label>Leave this empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+          </div>
+
+          <div class="cust-card">
+            <h3>About you</h3>
+            <div class="g2">
+              <div class="fg"><label>Your name *</label><input name="customerName" required autocomplete="name" placeholder="e.g. Mr. Balaji"></div>
+              <div class="fg"><label>Company name *</label><input name="companyName" required autocomplete="organization" placeholder="e.g. Sree Lakshmi Engineering"></div>
+              <div class="fg"><label>Designation</label><input name="designation" autocomplete="organization-title" placeholder="e.g. Business Owner"></div>
+              <div class="fg"><label>City</label><input name="location" autocomplete="address-level2" placeholder="e.g. Chennai, Tamil Nadu"></div>
+            </div>
+          </div>
+
+          <div class="cust-card">
+            <h3>Your photo or company logo</h3>
+            <div class="photo-box" id="photoBox">
+              <input class="photo-input" type="file" accept="image/*" id="photoInput" aria-label="Upload photo">
+              <div class="photo-drop" id="photoDrop">
+                <div class="up-ico">📷</div>
+                <b>Drop a photo here</b>
+                <small>or click to browse · or paste from clipboard <span class="kbd">Ctrl</span><span class="kbd">V</span></small>
+                <small>JPG or PNG, up to 5 MB. We'll compress it automatically.</small>
+              </div>
+              <div class="photo-preview" id="photoPreview" style="display:none"></div>
+            </div>
+            <div class="photo-hint">
+              Optional. A photo of yourself, your team, or your company logo helps other clients trust your review.
+              Prefer to email it? Send to <a href="mailto:${REVIEW_EMAIL}?subject=My%20SRV%20review%20photo">${REVIEW_EMAIL}</a>.
+            </div>
+          </div>
+
+          <div class="cust-card">
+            <h3>What we did for you</h3>
+            <div class="fg">
+              <label>Which service(s) did we provide?</label>
+              <input name="services" list="serviceList" placeholder="e.g. IT Support & System Services">
+              <datalist id="serviceList">${serviceOpts}</datalist>
+            </div>
+            <div class="fg">
+              <label>Invoice / Reference number <span style="color:var(--mu);font-weight:400">(optional)</span></label>
+              <input name="invoiceRef" placeholder="e.g. SRV/2026-27/004">
+            </div>
+            <div class="fg">
+              <label>How did you hear about us?</label>
+              <select name="heardFrom">
+                <option value="">Prefer not to say</option>
+                ${heardOpts}
+              </select>
+            </div>
+          </div>
+
+          <div class="cust-card">
+            <h3>How would you rate us? *</h3>
+            <div class="stars" id="custStars" data-rating="0" role="radiogroup" aria-label="Star rating">
+              <span role="radio" tabindex="0" aria-checked="false" aria-label="1 star" data-v="1">★</span>
+              <span role="radio" tabindex="0" aria-checked="false" aria-label="2 stars" data-v="2">★</span>
+              <span role="radio" tabindex="0" aria-checked="false" aria-label="3 stars" data-v="3">★</span>
+              <span role="radio" tabindex="0" aria-checked="false" aria-label="4 stars" data-v="4">★</span>
+              <span role="radio" tabindex="0" aria-checked="false" aria-label="5 stars" data-v="5">★</span>
+            </div>
+            <div class="rating-label" id="custRatingLabel">Tap a star to rate</div>
+          </div>
+
+          <div class="cust-card">
+            <h3>Your review</h3>
+            <div class="fg">
+              <label>Headline *</label>
+              <input name="reviewTitle" required maxlength="${MAX_TITLE}" placeholder="e.g. Professional service, delivered on time">
+              <div class="cc" id="cTitleCount">0 / ${MAX_TITLE}</div>
+            </div>
+            <div class="fg">
+              <label>Tell us about your experience *</label>
+              <textarea name="reviewText" required rows="6" maxlength="${MAX_REVIEW}" placeholder="What did we do for you? How was the communication? Would you recommend us?"></textarea>
+              <div class="cc" id="cTextCount">0 / ${MAX_REVIEW}</div>
+            </div>
+          </div>
+
+          <div class="cust-card">
+            <h3>Permission &amp; consent</h3>
+            <label class="tg-item" id="permToggle">
+              <input type="checkbox" name="publishPermission">
+              <div class="tg-check">✓</div>
+              <div class="tg-text">I allow SRV Digital Systems &amp; Solutions to publish my review on their website
+                <small>Your name, company name and review will be shown publicly</small>
+              </div>
+            </label>
+            <label class="consent" style="margin-top:16px">
+              <input type="checkbox" name="consent" required>
+              <span>I agree that my information will be used to process this testimonial as described in the <a href="${privacyHref}" id="privacyLink" ${cfg.privacyUrl?'target="_blank" rel="noopener"':''}>Privacy Policy</a>. *</span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn pri" id="custSubmit" style="width:100%;justify-content:center;padding:15px;font-size:15px">
+            ✓ Submit my review
+          </button>
+        </form>
+        <div class="cust-foot">
+          <button class="btn" style="margin-bottom:16px;background:#fff;border-color:var(--line)" onclick="previewSample()">
+            👁️ Fill with demo data
+          </button>
+          <b>SRV DIGITAL SYSTEMS &amp; SOLUTIONS</b>
+          <small>Secure Systems. Reliable Solutions.</small>
+          <div style="margin-top:10px">Chennai, Tamil Nadu · srvdigitalsystemssolutions.com</div>
+        </div>
+
+        <div class="pub-section" id="pubReviews">
+          <div class="pub-skel"><div></div><div></div><div></div></div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+/* ---------- image compressor ---------- */
+function loadImageFromDataUrl(dataUrl){
+  return new Promise((res,rej)=>{
+    const im=new Image();
+    im.onload=()=>res(im);
+    im.onerror=rej;
+    im.src=dataUrl;
+  });
+}
+function loadImageFromFile(file){
+  return new Promise((res,rej)=>{
+    const r=new FileReader();
+    r.onload=()=>loadImageFromDataUrl(r.result).then(res,rej);
+    r.onerror=rej;
+    r.readAsDataURL(file);
+  });
+}
+async function compressImage(img,maxDim,quality){
+  const s=Math.min(1,maxDim/Math.max(img.width,img.height));
+  const w=Math.max(1,Math.round(img.width*s));
+  const h=Math.max(1,Math.round(img.height*s));
+  const c=document.createElement('canvas');
+  c.width=w;c.height=h;
+  c.getContext('2d').drawImage(img,0,0,w,h);
+  return {dataUrl:c.toDataURL('image/jpeg',quality),width:w,height:h};
+}
+async function compressTo(dataUrl,maxDim,quality){
+  const im=await loadImageFromDataUrl(dataUrl);
+  const r=await compressImage(im,maxDim,quality);
+  return r.dataUrl;
+}
+async function compressFile(file,maxDim,quality){
+  const im=await loadImageFromFile(file);
+  const r=await compressImage(im,maxDim,quality);
+  return {filename:file.name.replace(/\.\w+$/,'')+'.jpg',dataUrl:r.dataUrl,width:r.width,height:r.height,size:file.size,origName:file.name};
+}
+
+function bindCustomer(){
+  const form=document.getElementById('custForm');
+  if(!form)return;
+
+  const starsEl=document.getElementById('custStars');
+  let currentRating=0;
+  if(starsEl){
+    const paint=v=>{
+      starsEl.querySelectorAll('span').forEach(s=>{
+        const on=+s.dataset.v<=v;
+        s.classList.toggle('on',on);
+        s.setAttribute('aria-checked',+s.dataset.v===v?'true':'false');
+      });
+      const lbl=document.getElementById('custRatingLabel');
+      lbl.textContent=v?v+' — '+RATING_LABELS[v]:'Tap a star to rate';
+    };
+    starsEl.addEventListener('click',e=>{
+      const s=e.target.closest('span');if(!s)return;
+      currentRating=+s.dataset.v;
+      starsEl.dataset.rating=currentRating;
+      paint(currentRating);
+    });
+    starsEl.addEventListener('keydown',e=>{
+      const c=currentRating||0;let v=c;
+      if(e.key==='ArrowRight'||e.key==='ArrowUp')v=Math.min(5,c+1);
+      else if(e.key==='ArrowLeft'||e.key==='ArrowDown')v=Math.max(1,c-1);
+      else if(e.key>='1'&&e.key<='5')v=+e.key;
+      else if(e.key===' '||e.key==='Enter'){const t=e.target.closest('span');if(t)v=+t.dataset.v;}
+      else return;
+      e.preventDefault();
+      currentRating=v;starsEl.dataset.rating=v;paint(v);
+      starsEl.querySelector(`[data-v="${v}"]`)?.focus();
+    });
+    paint(0);
+  }
+
+  const tIn=form.querySelector('[name=reviewTitle]');
+  const xIn=form.querySelector('[name=reviewText]');
+  const tCount=document.getElementById('cTitleCount');
+  const xCount=document.getElementById('cTextCount');
+  if(tIn&&tCount)tIn.addEventListener('input',()=>{
+    tCount.textContent=tIn.value.length+' / '+MAX_TITLE;
+    tCount.className='cc'+(tIn.value.length>MAX_TITLE?' x':'');
+  });
+  if(xIn&&xCount)xIn.addEventListener('input',()=>{
+    xCount.textContent=xIn.value.length+' / '+MAX_REVIEW;
+    xCount.className='cc'+(xIn.value.length>MAX_REVIEW?' x':'');
+  });
+
+  const perm=document.getElementById('permToggle');
+  if(perm){
+    const cb=perm.querySelector('input[type=checkbox]');
+    cb.addEventListener('change',()=>perm.classList.toggle('on',cb.checked));
+  }
+
+  let custPhoto=null;
+  const photoBox=document.getElementById('photoBox');
+  const photoInput=document.getElementById('photoInput');
+  const photoDrop=document.getElementById('photoDrop');
+  const photoPreview=document.getElementById('photoPreview');
+
+  function paintPhoto(){
+    if(!custPhoto){
+      photoBox.classList.remove('has-photo');
+      photoDrop.style.display='';
+      photoPreview.style.display='none';
+      photoPreview.innerHTML='';
+      return;
+    }
+    photoBox.classList.add('has-photo');
+    photoDrop.style.display='none';
+    photoPreview.style.display='';
+    const kb=Math.round((custPhoto.dataUrl.length*0.75)/1024);
+    photoPreview.innerHTML=`
+      <div class="photo-thumb"><img src="${esc(custPhoto.dataUrl)}" alt=""></div>
+      <div class="photo-info">
+        <b>${esc(custPhoto.origName||custPhoto.filename||'photo.jpg')}</b>
+        <small class="ok">✓ Ready — ${custPhoto.width}×${custPhoto.height}px · ~${kb} KB</small>
+      </div>
+      <div class="photo-actions">
+        <button type="button" id="photoReplace">↻ Replace</button>
+        <button type="button" id="photoRemove" class="rm">✕ Remove</button>
+      </div>
+    `;
+    document.getElementById('photoReplace').addEventListener('click',()=>photoInput.click());
+    document.getElementById('photoRemove').addEventListener('click',()=>{
+      custPhoto=null;paintPhoto();
+      toast('Photo removed');
+    });
+  }
+  paintPhoto();
+
+  async function handleFile(file){
+    if(!file)return;
+    if(!/^image\//i.test(file.type)){
+      toast('Please choose an image file','er');return;
+    }
+    if(file.size>5*1024*1024){
+      toast('Image too large — max 5 MB','er');return;
+    }
+    toast('Compressing photo…');
+    try{
+      custPhoto=await compressFile(file,MAX_PHOTO_LOCAL,PHOTO_QUALITY_LOCAL);
+      paintPhoto();
+      toast('Photo added ✓','ok');
+    }catch(e){
+      console.warn(e);
+      toast('Could not read image','er');
+    }
+  }
+
+  photoInput?.addEventListener('change',e=>{
+    const f=e.target.files&&e.target.files[0];
+    if(f)handleFile(f);
+    e.target.value='';
+  });
+
+  ['dragenter','dragover'].forEach(ev=>
+    photoBox?.addEventListener(ev,e=>{
+      e.preventDefault();e.stopPropagation();
+      photoBox.classList.add('dr');
+    })
+  );
+  ['dragleave','drop'].forEach(ev=>
+    photoBox?.addEventListener(ev,e=>{
+      e.preventDefault();e.stopPropagation();
+      if(ev==='dragleave'&&photoBox.contains(e.relatedTarget))return;
+      photoBox.classList.remove('dr');
+    })
+  );
+  photoBox?.addEventListener('drop',e=>{
+    const dt=e.dataTransfer;
+    if(!dt)return;
+    const f=dt.files&&dt.files[0];
+    if(f){handleFile(f);return;}
+    const it=dt.items&&dt.items[0];
+    if(it&&it.kind==='file'){const g=it.getAsFile();if(g)handleFile(g);}
+  });
+
+  window.__custPaste = function(e){
+    if(customerStage!=='form')return;
+    const items=(e.clipboardData&&e.clipboardData.items)||[];
+    for(const it of items){
+      if(it.kind==='file'&&/^image\//i.test(it.type)){
+        const f=it.getAsFile();
+        if(f){handleFile(f);e.preventDefault();return;}
+      }
+    }
+  };
+
+  const pLink=document.getElementById('privacyLink');
+  if(pLink&&!cfg.privacyUrl){
+    pLink.addEventListener('click',e=>{
+      e.preventDefault();
+      alert('Privacy: your name, company, review and any uploaded photo are used only to process and (if permitted) display this testimonial. Request removal at any time by contacting SRV Digital Systems & Solutions.');
+    });
+  }
+
+  form.addEventListener('submit',async e=>{
+    e.preventDefault();
+
+    const hp=form.querySelector('[name=website]');
+    if(hp&&hp.value){customerStage='thanks';lastSubmitted=null;render();return;}
+
+    const fd=new FormData(form);
+    const customerName=(fd.get('customerName')||'').trim();
+    const companyName =(fd.get('companyName') ||'').trim();
+    const reviewTitle =(fd.get('reviewTitle') ||'').trim();
+    const reviewText  =(fd.get('reviewText')  ||'').trim();
+
+    if(!customerName){ toast('Please enter your name','er'); form.querySelector('[name=customerName]').focus(); return; }
+    if(!companyName){ toast('Please enter your company name','er'); form.querySelector('[name=companyName]').focus(); return; }
+    if(!currentRating){ toast('Please pick a star rating','er'); starsEl.scrollIntoView({behavior:'smooth',block:'center'}); return; }
+    if(!reviewTitle){ toast('Please add a review headline','er'); form.querySelector('[name=reviewTitle]').focus(); return; }
+    if(!reviewText){ toast('Please write your review','er'); form.querySelector('[name=reviewText]').focus(); return; }
+    const consent=form.querySelector('[name=consent]');
+    if(consent&&!consent.checked){ toast('Please tick the consent box','er'); consent.focus(); return; }
+
+    const t=mk({
+      customerName,
+      companyName,
+      designation:(fd.get('designation')||'').trim(),
+      location:(fd.get('location')||'').trim(),
+      services:(fd.get('services')||'').trim(),
+      invoiceRef:(fd.get('invoiceRef')||'').trim(),
+      heardFrom:(fd.get('heardFrom')||'').trim(),
+      reviewTitle,
+      reviewText,
+      rating:currentRating,
+      publishPermission:!!fd.get('publishPermission'),
+      source:'customer',
+      seenByAdmin:false
+    });
+    t.verified=false;
+    t.featured=false;
+    if(custPhoto)t.photo={filename:custPhoto.filename,dataUrl:custPhoto.dataUrl};
+
+    const btn=document.getElementById('custSubmit');
+    btn.disabled=true;
+    btn.textContent='Submitting…';
+
+    S.testimonials.unshift(t);
+    saveLocal();
+
+    if(cfg.webhook){
+      postWebhook(t).catch(err=>console.warn('webhook',err));
+    }
+    if(cloud()){
+      try{await ghSave(false);}catch(err){console.warn('Silent sync failed:',err);}
+    }
+
+    lastSubmitted=t;
+    customerStage='thanks';
+    render();
+  });
+}
+
+window.previewSample=function(){
+  const form=document.getElementById('custForm');
+  if(!form)return;
+  const s={
+    customerName:SAMPLE.customerName,
+    companyName:SAMPLE.companyName,
+    designation:SAMPLE.designation,
+    location:SAMPLE.location,
+    services:SAMPLE.services,
+    invoiceRef:SAMPLE.invoiceRef,
+    heardFrom:SAMPLE.heardFrom,
+    reviewTitle:SAMPLE.reviewTitle,
+    reviewText:SAMPLE.reviewText
+  };
+  Object.keys(s).forEach(k=>{
+    const el=form.querySelector('[name="'+k+'"]');
+    if(el){
+      el.value=s[k];
+      el.dispatchEvent(new Event('input',{bubbles:true}));
+    }
+  });
+  const star5=document.querySelector('#custStars [data-v="5"]');
+  if(star5)star5.click();
+  const consent=form.querySelector('[name=consent]');
+  if(consent)consent.checked=true;
+  toast('Demo data filled — click Submit to see Thank You page','ok');
+  form.scrollIntoView({behavior:'smooth',block:'start'});
+};
+
+/* =========================================================
+   PUBLIC REVIEWS
+========================================================= */
+async function loadPublicReviews(){
+  const el=document.getElementById('pubReviews');
+  if(!el)return;
+  if(isLoggedIn&&S.testimonials.length){
+    renderPublicReviews(S.testimonials.filter(t=>t.publishPermission),el);
+    return;
+  }
+  try{
+    const url=RAW(cfg.dataPath);
+    const r=await fetch(url,{cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    const data=await r.json();
+    const items=(data.testimonials||[]).filter(t=>t.publishPermission);
+    renderPublicReviews(items,el);
+  }catch(e){
+    el.innerHTML='';
+  }
+}
+
+function renderPublicReviews(items,el){
+  const sorted=[...items].sort((a,b)=>{
+    if(a.featured!==b.featured)return a.featured?-1:1;
+    return String(b.reviewDate||'').localeCompare(String(a.reviewDate||''));
+  });
+  if(!sorted.length){
+    el.innerHTML=`
+      <h2>⭐ What our clients say</h2>
+      <p class="pub-summary">Be the first to share your experience with SRV Digital Systems &amp; Solutions.</p>
+    `;
+    return;
+  }
+  const avg=Math.round((sorted.reduce((s,t)=>s+t.rating,0)/sorted.length)*10)/10;
+  el.innerHTML=`
+    <h2>⭐ What our clients say</h2>
+    <p class="pub-summary">${avg.toFixed(1)} average from ${sorted.length} review${sorted.length>1?'s':''}</p>
+    ${sorted.map(publicCard).join('')}
+  `;
+  injectJsonLd(sorted,avg);
+}
+
+function publicCard(t){
+  const photo=src(t.photo);
+  const initial=(t.customerName||'?').trim()[0].toUpperCase();
+  const badges=[];
+  if(t.verified)badges.push('<span class="tc-badge badge-verified">✓ Verified</span>');
+  if(t.featured)badges.push('<span class="tc-badge badge-featured">★ Featured</span>');
+  const meta=[t.designation,t.companyName,t.location].filter(Boolean).map(esc).join(' · ');
+  return `
+    <div class="pub-card">
+      <div class="pub-head">
+        <div class="pub-av">${photo?`<img src="${esc(photo)}" alt="">`:initial}</div>
+        <div class="pub-meta">
+          <div class="pub-name">${esc(t.customerName||'Client')}${badges.length?' '+badges.join(' '):''}</div>
+          <div class="pub-co">${meta}</div>
+        </div>
+        <div class="pub-when">${esc(ago(t.reviewDate||t.createdAt))}</div>
+      </div>
+      <div class="pub-stars">${stars(t.rating)}</div>
+      <div class="pub-title">${esc(t.reviewTitle||'')}</div>
+      <div class="pub-text">${esc(t.reviewText||'')}</div>
+    </div>
+  `;
+}
+
+function injectJsonLd(items,avg){
+  document.getElementById('jsonld')?.remove();
+  const org={
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"SRV Digital Systems & Solutions",
+    "slogan":"Secure Systems. Reliable Solutions.",
+    "url":location.origin+location.pathname,
+    "aggregateRating":{
+      "@type":"AggregateRating",
+      "ratingValue":avg.toFixed(1),
+      "reviewCount":items.length,
+      "bestRating":5,
+      "worstRating":1
+    },
+    "review":items.slice(0,20).map(t=>({
+      "@type":"Review",
+      "author":{"@type":"Person","name":t.customerName||'Client'},
+      "datePublished":t.reviewDate||t.createdAt,
+      "reviewBody":t.reviewText||'',
+      "name":t.reviewTitle||'',
+      "reviewRating":{"@type":"Rating","ratingValue":t.rating,"bestRating":5,"worstRating":1}
+    }))
+  };
+  const el=document.createElement('script');
+  el.type='application/ld+json';
+  el.id='jsonld';
+  el.textContent=JSON.stringify(org);
+  document.head.appendChild(el);
+}
+
+/* =========================================================
+   THANK YOU
+========================================================= */
+function renderThanks(){
+  const t=lastSubmitted||{};
+  const photo=t.photo&&(t.photo.dataUrl||t.photo.url)?esc(t.photo.dataUrl||t.photo.url):'';
+  return `
+    <div class="thanks-wrap">
+      <div class="thanks-card">
+        <div class="thanks-icon">✓</div>
+        ${photo?`<div class="thanks-photo"><img src="${photo}" alt=""></div>`:''}
+        <h1>Thank you, ${esc((t.customerName||'').split(' ')[0]||'friend')}!</h1>
+        <p>Your review has been submitted successfully. We truly appreciate you taking the time to share your experience with SRV Digital Systems &amp; Solutions.</p>
+        ${t.reviewText?`
+          <div class="thanks-quote">
+            "${esc(t.reviewTitle||'')}"<br><br>
+            <b>— ${esc(t.customerName||'')}${t.companyName?', '+esc(t.companyName):''}</b>
+          </div>
+        `:''}
+        <p style="font-size:13.5px">Your feedback will be reviewed and may appear on our website soon.</p>
+        <div class="share-row">
+          <a class="share-btn wa" href="#" onclick="shareWhatsApp();return false">📲 Share on WhatsApp</a>
+          <button class="share-btn" onclick="copyLink()">🔗 Copy link</button>
+        </div>
+        <button class="btn pri" style="width:100%;justify-content:center;padding:14px;font-size:14px;margin-top:8px" onclick="resetCustomer()">
+          Leave another review
+        </button>
+        <div class="cust-foot" style="padding-top:20px">
+          <b>SRV DIGITAL SYSTEMS &amp; SOLUTIONS</b>
+          <small>Secure Systems. Reliable Solutions.</small>
+        </div>
+      </div>
+    </div>
+  `;
+}
+window.resetCustomer=function(){
+  customerStage='form';
+  lastSubmitted=null;
+  render();
+};
+window.shareWhatsApp=function(){
+  const t=lastSubmitted||{};
+  const text=`I just reviewed SRV Digital Systems & Solutions — ${t.rating||''}★ "${t.reviewTitle||''}". Check them out: ${location.origin}${location.pathname}`;
+  window.open('https://wa.me/?text='+encodeURIComponent(text),'_blank','noopener');
+};
+window.copyLink=function(){
+  const url=location.origin+location.pathname;
+  const fallback=()=>{
+    const el=document.createElement('textarea');
+    el.value=url;document.body.appendChild(el);el.select();
+    try{document.execCommand('copy');toast('Link copied','ok');}
+    catch(_){toast('Could not copy','er');}
+    document.body.removeChild(el);
+  };
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url).then(()=>toast('Link copied','ok'),fallback);
+  }else fallback();
+};
+
+/* =========================================================
+   ADMIN SHELL
+========================================================= */
+function renderAdminShell(){
+  return `
+    <aside class="side" id="side">
+      <div class="logo"><img src="images/logo.png" alt="SRV" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><div class="fb">SRV DIGITAL SYSTEMS</div></div>
+      <nav class="nav">
+        <small>MENU</small>
+        <button class="nv on" data-v="dash">📊 Dashboard</button>
+        <button class="nv" data-v="all">⭐ All Testimonials <b id="ct">0</b></button>
+        <button class="nv" data-v="published">✓ Published <b id="cpp">0</b></button>
+        <button class="nv" data-v="pending">⚠️ Needs Review <b id="cpd">0</b></button>
+        <small>SYSTEM</small>
+        <button class="nv" data-v="settings">🔐 Connection</button>
+      </nav>
+      <div class="sf">
+        <div class="row" style="justify-content:space-between"><span>Avg. rating</span><b id="gr">0.0</b></div>
+        <div class="bar"><i id="gb" style="width:0"></i></div>
+        <div style="margin-top:10px"><button class="nv" onclick="logoutAdmin()" style="width:100%;justify-content:center;background:rgba(212,175,55,.15)">🚪 Sign out</button></div>
+      </div>
+    </aside>
+    <div class="ov" id="ov"></div>
+    <div class="main">
+      <div class="top">
+        <button class="burger" id="bg">☰</button>
+        <h1 id="ttl">Dashboard</h1>
+        <input id="q" placeholder="🔍 Search testimonials…">
+        <div class="pill" id="pill"><i></i><span id="pt">Local</span></div>
+        <button class="btn pri" id="saveNow">💾 Save</button>
+      </div>
+      <div class="pg" id="pg"></div>
+    </div>
+  `;
+}
+window.logoutAdmin=function(){
+  if(!confirm('Sign out of admin?'))return;
+  isLoggedIn=false;
+  sessionStorage.removeItem(LK);
+  view='dash';activeId=null;
+  render();
+};
+
+/* =========================================================
+   ADMIN VIEWS
+========================================================= */
+const TITLES={dash:'Dashboard',all:'All Testimonials',published:'Published',pending:'Needs Review',settings:'Connection'};
+
+function setView(v){
+  view=v;activeId=null;q='';const qEl=$('#q');if(qEl)qEl.value='';
+  renderAdminView();
+  $('#side')?.classList.remove('open');
+  $('#ov')?.classList.remove('show');
+  scrollTo(0,0);
+}
+window.setView=setView;
+
+function renderAdminView(){
+  if(!isLoggedIn)return;
+  const ct=$('#ct'),cpp=$('#cpp'),cpd=$('#cpd');
+  if(!ct)return;
+  ct.textContent=S.testimonials.length;
+  cpp.textContent=S.testimonials.filter(t=>t.publishPermission).length;
+  cpd.textContent=S.testimonials.filter(t=>!t.seenByAdmin).length;
+  $$('.nv').forEach(b=>b.classList.toggle('on',b.dataset.v===view));
+  const avg=avgRating();
+  $('#gr').textContent=avg.toFixed(1)+' ★';
+  $('#gb').style.width=(avg/5*100)+'%';
+  $('#ttl').textContent=activeId?'Edit Testimonial':TITLES[view];
+  $('#pg').innerHTML=activeId&&cur()?editor(cur()):
+    view==='dash'?dashView():
+    view==='settings'?settingsView():
+    listView();
+  pill();
+}
+
+function dashView(){
+  const all=S.testimonials;
+  const published=all.filter(t=>t.publishPermission);
+  const avg=avgRating();
+  const newOnes=all.filter(t=>!t.seenByAdmin&&t.source==='customer');
+  const localOnly=all.filter(t=>!t.publishPermission);
+  const withPhotos=all.filter(t=>t.photo&&src(t.photo)).length;
+  return `
+    <div class="stats">
+      <div class="card stat" style="--c:#D4AF37"><small>Total</small><h2>${all.length}</h2></div>
+      <div class="card stat" style="--c:#10B981"><small>Published</small><h2>${published.length}</h2></div>
+      <div class="card stat" style="--c:#F59E0B"><small>Avg. rating</small><h2>${avg.toFixed(1)} ★</h2></div>
+      <div class="card stat" style="--c:#1E40AF"><small>New (customer)</small><h2>${newOnes.length}</h2></div>
+    </div>
+    ${storageFull?'<div class="alert err">🔴 <b>Browser storage is full.</b> Your edits are only in memory — click <b>Download all (backup)</b> now, then remove some items.</div>':''}
+    ${!cloud()?'<div class="alert">⚠️ GitHub is not connected. Open <b>Connection</b> to set the token. Without it nothing is pushed to your repo.</div>':''}
+    ${!cfg.webhook?'<div class="alert">📮 <b>No webhook configured.</b> Customer submissions from other devices will NOT reach you. Add a Formspree / Google Sheets / Zapier URL in <b>Connection</b>.</div>':'<div class="alert ok">📮 Webhook configured — remote submissions and photos will be delivered.</div>'}
+    ${localOnly.length?`<div class="alert">🔒 <b>${localOnly.length}</b> testimonial${localOnly.length>1?'s':''} without publish permission stay on this device only and are never uploaded to GitHub.</div>`:''}
+    ${withPhotos?`<div class="alert ok">📷 ${withPhotos} testimonial${withPhotos>1?'s':''} with photos.</div>`:''}
+    <div class="row" style="margin-bottom:18px">
+      <button class="btn pri" data-act="new">＋ New Testimonial</button>
+      <button class="btn dk" data-act="load">⬇ Load from GitHub</button>
+      <button class="btn" data-act="dl">⬇ Download JSON (published)</button>
+      <button class="btn" data-act="dlAll">⬇ Download all (backup)</button>
+      <button class="btn" data-act="sample">📌 Load sample</button>
+    </div>
+    ${newOnes.length?`
+      <div class="alert ok"><b>${newOnes.length}</b> new submission${newOnes.length>1?'s':''} from customers — review and approve.</div>
+      <h3 class="mont" style="margin-bottom:12px">New submissions</h3>
+      <div class="grid">${newOnes.slice(0,6).map(tCard).join('')}</div>
+    `:all.length?`
+      <h3 class="mont" style="margin-bottom:12px">Recent testimonials</h3>
+      <div class="grid">${all.slice(0,6).map(tCard).join('')}</div>
+    `:`
+      <div class="empty">
+        <div>⭐</div>
+        <h3>No testimonials yet</h3>
+        <p style="margin-bottom:16px">Add your first review or load the sample to see how it works.</p>
+        <button class="btn pri" data-act="new">＋ Add First Testimonial</button>
+        <button class="btn" style="margin-left:8px" data-act="sample">📌 Load sample</button>
+      </div>
+    `}
+  `;
+}
+
+function sortList(list){
+  const arr=[...list];
+  switch(sortBy){
+    case 'oldest':arr.sort((a,b)=>String(a.createdAt).localeCompare(String(b.createdAt)));break;
+    case 'rating-high':arr.sort((a,b)=>b.rating-a.rating);break;
+    case 'rating-low':arr.sort((a,b)=>a.rating-b.rating);break;
+    case 'featured':arr.sort((a,b)=>(b.featured?1:0)-(a.featured?1:0)||String(b.createdAt).localeCompare(String(a.createdAt)));break;
+    default:arr.sort((a,b)=>String(b.createdAt).localeCompare(String(a.createdAt)));
+  }
+  return arr;
+}
+
+function listView(){
+  let list=S.testimonials;
+  if(view==='published')list=list.filter(t=>t.publishPermission);
+  if(view==='pending')list=list.filter(t=>!t.seenByAdmin);
+  if(q){
+    const ql=q.toLowerCase();
+    list=list.filter(t=>
+      t.customerName.toLowerCase().includes(ql)||
+      t.companyName.toLowerCase().includes(ql)||
+      t.reviewTitle.toLowerCase().includes(ql)||
+      t.reviewText.toLowerCase().includes(ql)
+    );
+  }
+  list=sortList(list);
+  const headerText={
+    all:'All client testimonials',
+    published:'Only testimonials with publish permission',
+    pending:'Customer submissions awaiting review'
+  }[view]||'';
+  const emptyIcon=view==='pending'?'⚠️':view==='published'?'✓':'⭐';
+  const emptyText=view==='pending'?'No pending submissions':view==='published'?'Nothing published yet':'No testimonials yet';
+  return `
+    <div class="row" style="justify-content:space-between;margin-bottom:18px">
+      <p style="color:var(--mu);flex:1;min-width:140px">${headerText}</p>
+      <select class="sort-sel" id="sortSel" aria-label="Sort testimonials">
+        <option value="newest" ${sortBy==='newest'?'selected':''}>Newest first</option>
+        <option value="oldest" ${sortBy==='oldest'?'selected':''}>Oldest first</option>
+        <option value="rating-high" ${sortBy==='rating-high'?'selected':''}>Highest rating</option>
+        <option value="rating-low" ${sortBy==='rating-low'?'selected':''}>Lowest rating</option>
+        <option value="featured" ${sortBy==='featured'?'selected':''}>Featured first</option>
+      </select>
+      <button class="btn pri" data-act="new">＋ Add</button>
+    </div>
+    ${list.length?`<div class="grid">${list.map(tCard).join('')}</div>`
+    :`<div class="empty"><div>${emptyIcon}</div><h3>${emptyText}</h3></div>`}
+  `;
+}
+
+function tCard(t){
+  const photo=src(t.photo);
+  const initial=(t.customerName||'?').trim()[0].toUpperCase();
+  const statuses=[];
+  if(t.source==='customer'&&!t.seenByAdmin)statuses.push('<span class="tc-badge badge-new">🆕 New</span>');
+  if(t.verified)statuses.push('<span class="tc-badge badge-verified">✓ Verified</span>');
+  if(t.featured)statuses.push('<span class="tc-badge badge-featured">★ Featured</span>');
+  if(!t.publishPermission)statuses.push('<span class="tc-badge badge-pending">🔒 Local only</span>');
+  return `
+    <div class="card tc" data-open="${t.id}">
+      <div class="tc-h">
+        <div class="tc-av">${photo?`<img src="${esc(photo)}" alt="">`:initial}</div>
+        <div class="tc-meta">
+          <div class="tc-name">${esc(t.customerName||'Unnamed client')}</div>
+          <div class="tc-co">${esc(t.companyName||'No company')}${t.location?' · '+esc(t.location):''}</div>
+          <div class="tc-stars">${stars(t.rating)}</div>
+        </div>
+      </div>
+      ${statuses.length?`<div class="tc-status">${statuses.join('')}</div>`:''}
+      <div class="tc-body">
+        <div class="tc-title">${esc(t.reviewTitle||'Untitled review')}</div>
+        <div class="tc-text">${esc(t.reviewText||'No review text yet')}</div>
+        <div class="tc-when">${esc(ago(t.createdAt))}${t.heardFrom?' · '+esc(t.heardFrom):''}</div>
+      </div>
+    </div>
+  `;
+}
+
+function editor(t){
+  const starSpans=[1,2,3,4,5].map(v=>
+    `<span data-v="${v}" class="${v<=t.rating?'on':''}">★</span>`
+  ).join('');
+  const serviceOpts=SERVICES.map(m=>`<option value="${esc(m)}"></option>`).join('');
+  const heardOpts=['',...HEARD_FROM]
+    .map(o=>`<option value="${esc(o)}" ${t.heardFrom===o?'selected':''}>${o||'— not recorded —'}</option>`).join('');
+  return `
+    <div class="card edtop">
+      <button class="btn" data-act="back">← Back</button>
+      <h2>${esc(t.customerName||'New testimonial')}</h2>
+      <button class="btn dn" data-act="del">🗑 Delete</button>
+      <button class="btn pri" data-act="save">💾 Save</button>
+    </div>
+    <div class="card sec">
+      <h3><span>1</span>Client</h3>
+      <div class="g2">
+        <div class="fg"><label>Client name *</label><input data-f="customerName" value="${esc(t.customerName)}"></div>
+        <div class="fg"><label>Company name *</label><input data-f="companyName" value="${esc(t.companyName)}"></div>
+        <div class="fg"><label>Designation</label><input data-f="designation" value="${esc(t.designation)}"></div>
+        <div class="fg"><label>Location</label><input data-f="location" value="${esc(t.location)}"></div>
+      </div>
+      <div class="fg" style="max-width:240px">
+        <label>Client photo / logo</label>
+        <div class="up"><div class="up-ico">👤</div><div>Tap to add photo</div><input type="file" accept="image/*" data-up="photo"></div>
+        ${src(t.photo)?`<div class="tg"><div class="tb"><img src="${esc(src(t.photo))}" alt=""><button data-rm="photo">✕</button></div></div>`:''}
+      </div>
+    </div>
+    <div class="card sec">
+      <h3><span>2</span>What we delivered</h3>
+      <div class="fg">
+        <label>Service(s) provided</label>
+        <input data-f="services" list="editServiceList" value="${esc(t.services)}">
+        <datalist id="editServiceList">${serviceOpts}</datalist>
+      </div>
+      <div class="fg">
+        <label>Invoice / Reference number</label>
+        <input data-f="invoiceRef" value="${esc(t.invoiceRef)}" placeholder="e.g. SRV/2026-27/004">
+      </div>
+      <div class="fg">
+        <label>Heard about us via</label>
+        <select data-f="heardFrom">${heardOpts}</select>
+      </div>
+    </div>
+    <div class="card sec">
+      <h3><span>3</span>Rating</h3>
+      <div class="stars" id="stars" data-rating="${t.rating}">${starSpans}</div>
+      <div class="rating-label" id="ratingLabel">${t.rating} — ${RATING_LABELS[t.rating]}</div>
+    </div>
+    <div class="card sec">
+      <h3><span>4</span>Review</h3>
+      <div class="fg">
+        <label>Review headline *</label>
+        <input data-f="reviewTitle" maxlength="${MAX_TITLE}" value="${esc(t.reviewTitle)}">
+        <div class="cc ${t.reviewTitle.length>MAX_TITLE?'x':''}" id="tc-title">${t.reviewTitle.length} / ${MAX_TITLE}</div>
+      </div>
+      <div class="fg">
+        <label>Full review *</label>
+        <textarea data-f="reviewText" rows="7" maxlength="${MAX_REVIEW}">${esc(t.reviewText)}</textarea>
+        <div class="cc ${t.reviewText.length>MAX_REVIEW?'x':''}" id="tc-text">${t.reviewText.length} / ${MAX_REVIEW}</div>
+      </div>
+      <div class="fg" style="max-width:240px">
+        <label>Review date</label>
+        <input type="date" data-f="reviewDate" value="${esc(t.reviewDate)}">
+      </div>
+    </div>
+    <div class="card sec">
+      <h3><span>5</span>Publishing</h3>
+      <div class="tg-row">
+        <label class="tg-item ${t.publishPermission?'on':''}" data-tog="publishPermission">
+          <input type="checkbox" ${t.publishPermission?'checked':''}>
+          <div class="tg-check">✓</div>
+          <div class="tg-text">Client permission <small>Required to publish on website</small></div>
+        </label>
+        <label class="tg-item gold ${t.verified?'on':''}" data-tog="verified">
+          <input type="checkbox" ${t.verified?'checked':''}>
+          <div class="tg-check">✓</div>
+          <div class="tg-text">Verified purchase <small>Shows a "Verified" badge</small></div>
+        </label>
+        <label class="tg-item gold ${t.featured?'on':''}" data-tog="featured">
+          <input type="checkbox" ${t.featured?'checked':''}>
+          <div class="tg-check">★</div>
+          <div class="tg-text">Feature on homepage <small>Highlight this testimonial</small></div>
+        </label>
+      </div>
+      ${t.source==='customer'?`<div class="alert" style="margin-top:14px">🆕 Submitted by client — review carefully before publishing.</div>`:''}
+      ${!t.publishPermission?`<div class="alert" style="margin-top:14px">🔒 Without publish permission this record stays on this device only and is never uploaded to GitHub.</div>`:''}
+    </div>
+  `;
+}
+
+function settingsView(){
+  return `
+    <div class="card sec">
+      <h3><span>🔐</span>GitHub connection</h3>
+      <div class="alert">Your token is stored only in this browser. Use a <b>fine-grained token</b> limited to this one repo with <b>Contents: Read &amp; write</b>. Never share this page publicly.</div>
+      <div class="g2">
+        <div class="fg"><label>Owner</label><input id="c_owner" value="${esc(cfg.owner)}"></div>
+        <div class="fg"><label>Repository</label><input id="c_repo" value="${esc(cfg.repo)}"></div>
+        <div class="fg"><label>Branch</label><input id="c_branch" value="${esc(cfg.branch)}"></div>
+        <div class="fg"><label>Data file</label><input id="c_dataPath" value="${esc(cfg.dataPath)}"></div>
+      </div>
+      <div class="fg"><label>Personal access token</label><input id="c_token" type="password" value="${esc(cfg.token)}" placeholder="github_pat_…"></div>
+      <div class="row">
+        <button class="btn pri" data-act="cfg">Save settings</button>
+        <button class="btn" data-act="test">Test connection</button>
+        <button class="btn dn" data-act="clearLocal">🗑 Clear local data</button>
+      </div>
+    </div>
+
+    <div class="card sec">
+      <h3><span>📮</span>Submission webhook</h3>
+      <div class="alert">Clients have no GitHub token, so their submissions and photos cannot be pushed to your repo directly. Add a webhook URL below and they'll be POSTed there — <b>Formspree</b>, <b>Google Apps Script</b>, <b>Zapier</b>, <b>Make.com</b> and <b>n8n</b> all work. Photos are sent as base64 in the <code>photoBase64</code> field (compressed to ~600px).</div>
+      <div class="fg">
+        <label>Webhook URL (optional)</label>
+        <input id="c_webhook" value="${esc(cfg.webhook)}" placeholder="https://formspree.io/f/xxxxxxx">
+      </div>
+      <div class="fg">
+        <label>Privacy policy URL (optional)</label>
+        <input id="c_privacyUrl" value="${esc(cfg.privacyUrl)}" placeholder="https://srvdigitalsystemssolutions.com/privacy">
+      </div>
+      <button class="btn pri" data-act="cfg">Save settings</button>
+    </div>
+
+    <div class="card sec">
+      <h3><span>🔒</span>Privacy model</h3>
+      <div class="alert err">Only testimonials with <b>publish permission</b> are uploaded to GitHub. Everything else stays in this browser's localStorage and is never sent anywhere unless a webhook is configured. If you clear your browser data you will lose unpublished reviews — use <b>Download all (backup)</b> regularly.</div>
+    </div>
+
+    <div class="card sec">
+      <h3><span>ℹ️</span>URLs</h3>
+      <p style="color:var(--mu);line-height:1.8;font-size:13px">
+        <b>Client review link (share this):</b><br>
+        <code style="background:#F1F5F9;padding:3px 8px;border-radius:6px;font-size:12.5px">${esc(location.origin+location.pathname)}</code>
+        <br><br>
+        <b>Admin URL (bookmark this):</b><br>
+        <code style="background:#F1F5F9;padding:3px 8px;border-radius:6px;font-size:12.5px">${esc(location.origin+location.pathname+'#admin')}</code>
+      </p>
+    </div>
+  `;
+}
+
+/* =========================================================
+   ADMIN EVENTS
+========================================================= */
+document.addEventListener('click',async e=>{
+  if(!isLoggedIn||!isAdminMode())return;
+  const t=e.target;
+  const c=s=>t.closest(s);
+  if(c('.nv')&&c('.nv').dataset.v)return setView(c('.nv').dataset.v);
+  if(c('#bg')){$('#side').classList.toggle('open');$('#ov').classList.toggle('show');return}
+  if(c('#ov')){$('#side').classList.remove('open');$('#ov').classList.remove('show');return}
+  if(c('#saveNow')){
+    const btn=$('#saveNow');
+    if(btn.disabled) return;
+    btn.disabled=true;
+    const orig=btn.textContent;
+    btn.textContent='💾 Saving…';
+    try{ await ghSave(true); }
+    finally{ btn.disabled=false; btn.textContent=orig; }
+    return;
+  }
+  if(c('[data-open]')){
+    activeId=c('[data-open]').dataset.open;
+    const item=cur();
+    if(item&&!item.seenByAdmin){item.seenByAdmin=true;touch();}
+    renderAdminView();scrollTo(0,0);return;
+  }
+  if(c('#stars span')){
+    const v=+c('#stars span').dataset.v;
+    const item=cur();if(!item)return;
+    item.rating=v;
+    $('#ratingLabel').textContent=v+' — '+RATING_LABELS[v];
+    $$('#stars span').forEach(s=>s.classList.toggle('on',+s.dataset.v<=v));
+    touch();return;
+  }
+  if(c('[data-rm]')){
+    const k=c('[data-rm]').dataset.rm;
+    const item=cur();if(!item)return;
+    item[k]=null;touch();renderAdminView();return;
+  }
+  const a=c('[data-act]')?.dataset.act;
+  if(!a)return;
+  const item=cur();
+  if(a==='back'){activeId=null;renderAdminView()}
+  else if(a==='new'){
+    const fresh=mk({source:'admin',seenByAdmin:true});
+    S.testimonials.unshift(fresh);
+    activeId=fresh.id;
+    touch();renderAdminView();
+    setTimeout(()=>$('[data-f=customerName]')?.focus(),80);
+  }
+  else if(a==='save'){ghSave(true)}
+  else if(a==='del'&&item){
+    if(!confirm('Delete this testimonial from '+item.customerName+'? Cannot be undone.'))return;
+    S.testimonials.splice(S.testimonials.indexOf(item),1);
+    activeId=null;touch();renderAdminView();toast('Deleted');
+  }
+  else if(a==='load'){ghLoad()}
+  else if(a==='dl'){downloadJSON(true)}
+  else if(a==='dlAll'){downloadJSON(false)}
+  else if(a==='sample'){
+    if(S.testimonials.some(t=>t.isSample))return toast('Sample already loaded');
+    const s=mk({...SAMPLE,source:'admin',seenByAdmin:true});
+    S.testimonials.unshift(s);
+    activeId=s.id;
+    touch();renderAdminView();
+    toast('Sample loaded','ok');
+  }
+  else if(a==='cfg'||a==='test'){
+    ['owner','repo','branch','token','webhook','privacyUrl'].forEach(k=>{
+      const el=$('#c_'+k);
+      if(el)cfg[k]=el.value.trim();
+    });
+    const dpEl=$('#c_dataPath');
+    if(dpEl){
+      const dp=dpEl.value.trim();
+      cfg.dataPath = dp || 'testimonials.json';
+      if(!/\.json$/i.test(cfg.dataPath)) cfg.dataPath += '.json';
+    }
+    localStorage.setItem(CK,JSON.stringify(cfg));
+    pill();
+    if(a==='cfg')toast('Settings saved','ok');
+    else{
+      try{
+        const r=await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}`,{headers:H()});
+        const j=await r.json();
+        toast(r.ok?(j.permissions&&j.permissions.push?'Connected ✓ write access':'Connected, read-only'):'Failed: '+(j.message||r.status),r.ok&&j.permissions?.push?'ok':'er');
+      }catch(_){toast('Network error','er')}
+    }
+  }
+  else if(a==='clearLocal'){
+    if(!confirm('Clear all testimonials from this browser? GitHub copy is not affected.'))return;
+    if(!confirm('Are you 100% sure?'))return;
+    localStorage.removeItem(DB);
+    S={testimonials:[]};
+    activeId=null;renderAdminView();
+    toast('Local data cleared');
+  }
+});
+
+document.addEventListener('input',e=>{
+  if(!isLoggedIn||!isAdminMode())return;
+  const t=e.target;
+  if(t.id==='q'){
+    q=t.value;
+    if(!activeId&&view!=='dash'&&view!=='settings')$('#pg').innerHTML=listView();
+    return;
+  }
+  const item=cur();if(!item)return;
+  if(t.dataset.f){
+    const k=t.dataset.f;
+    item[k]=t.value;
+    if(k==='reviewTitle'){
+      const el=$('#tc-title');
+      if(el){el.textContent=t.value.length+' / '+MAX_TITLE;el.className='cc'+(t.value.length>MAX_TITLE?' x':'')}
+    }
+    if(k==='reviewText'){
+      const el=$('#tc-text');
+      if(el){el.textContent=t.value.length+' / '+MAX_REVIEW;el.className='cc'+(t.value.length>MAX_REVIEW?' x':'')}
+    }
+    if(k==='customerName'){const h=$('.edtop h2');if(h)h.textContent=t.value||'New testimonial'}
+    touch();
+  }
+});
+
+document.addEventListener('change',async e=>{
+  if(!isLoggedIn||!isAdminMode())return;
+
+  if(e.target.id==='sortSel'){
+    sortBy=e.target.value;
+    renderAdminView();
+    return;
+  }
+
+  const up=e.target.dataset.up;
+  if(up){
+    const item=cur();if(!item)return;
+    const fs=[...e.target.files];if(!fs.length)return;
+    toast('Processing…');
+    try{
+      item[up]=await compressFile(fs[0],MAX_PHOTO_LOCAL,PHOTO_QUALITY_LOCAL);
+      touch();renderAdminView();
+      toast('Photo added','ok');
+    }catch(err){
+      console.warn(err);
+      toast('Could not read image','er');
+    }
+    return;
+  }
+
+  const tg=e.target.closest?.('.tg-item');
+  if(tg&&tg.dataset.tog&&e.target.type==='checkbox'){
+    const item=cur();if(!item)return;
+    item[tg.dataset.tog]=e.target.checked;
+    tg.classList.toggle('on',e.target.checked);
+    touch();
+  }
+});
+
+function downloadJSON(publishedOnly){
+  const data=payload(true,publishedOnly);
+  const filename=publishedOnly?'testimonials.json':'testimonials-backup.json';
+  const b=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+  const l=document.createElement('a');
+  l.href=URL.createObjectURL(b);
+  l.download=filename;
+  l.click();
+  setTimeout(()=>URL.revokeObjectURL(l.href),2000);
+  toast('Downloaded '+filename,'ok');
+}
+
+document.addEventListener('keydown',e=>{
+  if(!isLoggedIn||!isAdminMode())return;
+  if((e.ctrlKey||e.metaKey)&&e.key==='s'){e.preventDefault();ghSave(true)}
+  if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();const q=$('#q');if(q){q.focus();q.select()}}
+  if(e.key==='Escape'&&activeId){activeId=null;renderAdminView()}
+});
+
+addEventListener('beforeunload',e=>{
+  saveLocal();
+  if((dirty||storageFull)&&cloud()&&isAdminMode()){e.preventDefault();e.returnValue=''}
+});
+
+document.addEventListener('visibilitychange',()=>{
+  if(document.hidden&&isAdminMode()){
+    saveLocal();
+    if(dirty&&cloud())ghSave(false);
+  }
+});
+
+/* =========================================================
+   BOOT
+========================================================= */
+loadLocal();
+render();
+</script>
+</body>
+</html>
